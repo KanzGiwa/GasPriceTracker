@@ -1,1 +1,5 @@
-
+[Kevin James](https://docs.google.com/presentation/d/1hZboaWDhhN_dRyR7tmmWvG2YQT0tG5bOzk5baPGhvB0/edit?usp=sharing)  
+[John](https://docs.google.com/presentation/d/1Ym3mmtzZrCBIpZWCXQy2J0JoLvZGAr4uzFYSRi0TSOM/edit?usp=sharing)  
+[Mark](https://docs.google.com/presentation/d/1_5dp5aDwgp_UafmnkFh4vUhRhZEWH9JQCadWiWsoQXI/edit?usp=sharing)  
+[Emily](https://docs.google.com/presentation/d/1OpIxeTz1I8e71B9BaNRMvV1ijtlP4vlh1LehvvgTQT0/edit?usp=sharing)  
+[Juanito](https://docs.google.com/presentation/d/1lZlSCG64dlhHdbj86LD5iy_xMHokpbz0p_Csq4Oh1GQ/edit?usp=sharing)
