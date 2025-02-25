@@ -34,14 +34,14 @@ Conversational Courtesies (How will the team encourage and reinforce active list
 - be considerate, dont interupt, be supportive of ideas
 - keep eachother in check
 
+Enforcement/ Feedback (How will the team enforce its own rules? How do individuals prefer to give and receive feedback?)
+- constructive criticism if u dont agree with an idea
+- keep eachother in check
+- criticism should be given privately if thats whats most appropriate
+
   Signatures:
   Maya Geva
   Lily Hayes
   Kanz Giwa
   Brandon Rowe
   Gary Rose-Petruck
-
-Enforcement/ Feedback (How will the team enforce its own rules? How do individuals prefer to give and receive feedback?)
-- constructive criticism if u dont agree with an idea
-- keep eachother in check
-- criticism should be given privately if thats whats most appropriate
