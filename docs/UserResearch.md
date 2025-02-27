@@ -30,3 +30,8 @@ Observation Statement: Our age group is young adults
 Supporting Data: 93.5% of survey users are 18-24
 Team Action (if any): We can market our app towards this age group, or specifically market towards college students and commuters.
 We can customize some of the budgeting in the app to coorrespond with college based needs.
+
+Observation 5:
+Observation Statement: Most of our users drive for the purpose of commuting to work or school.
+Supporting Data: 70% of our users reason for driving is to commute to work/school.
+Team Action(if any): Improve or integrate the tracker tailored for commuters to show the cheapest gas stations along their routes.
