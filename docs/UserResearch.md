@@ -25,3 +25,8 @@ Supporting Data: Several users reported cutting back on groceries, social outing
 
 Team Action (if any): Highlight cost-saving features in the app, such as price alerts, historical price trends, and intelligent route planning to help users reduce fuel expenses.
 
+Observation 4: 
+Observation Statement: Our age group is young adults
+Supporting Data: 93.5% of survey users are 18-24
+Team Action (if any): We can market our app towards this age group, or specifically market towards college students and commuters.
+We can customize some of the budgeting in the app to coorrespond with college based needs.
