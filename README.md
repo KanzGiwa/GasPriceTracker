@@ -1,8 +1,3 @@
 # GasPriceTracker
 
-## Contributor Covenant Code of Conduct
-
-This project follows the [Contributor Covenant](https://www.contributor-covenant.org/) Code of Conduct.  
-By participating in this project, you agree to uphold its values of respect, inclusivity, and collaboration.  
-
-For full details, see our [Code of Conduct](CODE_OF_CONDUCT.md).
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
