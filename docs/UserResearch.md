@@ -17,3 +17,11 @@ Team Action (if any):
 Develop an AI-powered recommendation system.
 Add multi-car profiles for customized alerts.
 Use real-time traffic data to refine price-to-distance estimates.
+
+Observation 3:
+Observation Statement: High gas prices create financial stress and force trade-offs in spending.
+
+Supporting Data: Several users reported cutting back on groceries, social outings, or other expenses due to high gas costs. Others mentioned struggling to afford gas and even borrowing money to fill up.
+
+Team Action (if any): Highlight cost-saving features in the app, such as price alerts, historical price trends, and intelligent route planning to help users reduce fuel expenses.
+
