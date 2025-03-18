@@ -2,8 +2,8 @@ https://docs.google.com/presentation/d/1I2deZ9zH4_esXJMYxu7HXbVyZw70DjLe1goC89AB
 
 ## Explain how to collect the data for the specific metric in the backend
 * Metric 1 (NPS) - Collect the net promoter score from a servay 
-* Metric 2 (Adoption)-
+* Metric 2 (Adoption)- Collect the registration rate of new users.
 * Metric 3 (DAU) - Collect the data from Firebase analytics 
-* Metric 4 (Retention) -
+* Metric 4 (Retention) - Collect the number of logins per week. 
 * Metric 5 (CTR) -
 * Metric 6 (Specific to our app) -
