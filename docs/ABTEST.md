@@ -51,3 +51,58 @@ This experiment will utilize Firebase A/B Testing and Firebase Remote Config to 
 * Variation 2 (B): A darker background (Black) for higher contrast and improved readability.
 
 The experiment results will help determine which background color optimally enhances user experience and profile completion rates.
+
+
+## A/B Test Name:
+Gas Station Search Radius Optimization
+
+## User Story Number:
+This A/B test falls under US3: Gas Station Search & Filtering
+
+## Metrics:
+This experiment will measure key HEART metrics to assess the impact of search radius customization on user engagement and experience. The primary metrics include:
+
+Task Success: Percentage of users who successfully find and select a gas station within their desired radius.
+
+Engagement: Average time spent searching for a gas station before selecting one.
+
+Retention: Number of repeat users who return to search for gas stations again within a week.
+
+## Hypothesis:
+Users want to find nearby gas stations efficiently without being overwhelmed by too many distant options or missing closer, cheaper ones.
+
+The problem: Some users may prefer a fixed radius to filter results efficiently, while others may want a dynamic search that adjusts based on traffic conditions or fuel savings potential. Currently, users manually scroll through search results, which can lead to frustration and drop-off rates.
+
+The impact: A better search radius system could reduce search time, improve selection efficiency, and increase user satisfaction, leading to higher engagement and retention.
+
+By testing fixed vs. dynamic search radius settings, we aim to determine which approach enhances usability and helps users make faster, smarter gas station choices.
+
+## Experiment:
+This experiment will be implemented using Firebase A/B Testing and Firebase Remote Config to assign users different search radius settings dynamically. The test will be conducted on a subset of 30% of active users, ensuring no major disruptions for the general user base.
+
+Users will be randomly split into two groups (50/50 split)
+
+Event tracking via Firebase Analytics will monitor:
+
+Search-to-selection time (how fast users pick a station)
+
+Drop-off rate (if users abandon the search without selecting a station)
+
+Repeat searches per session (if users struggle to find a suitable option)
+
+## Variations:
+Control (A): Fixed Radius Selection
+Users manually set a fixed radius (e.g., 5, 10, or 20 miles) before searching.
+
+Gas stations outside this range are not shown in the search results.
+
+Variation 2 (B): Dynamic Radius Expansion
+The app automatically adjusts the search radius based on:
+
+User’s location density (smaller radius in cities, larger in rural areas).
+
+Traffic conditions (expanding radius if closer gas stations are congested).
+
+Savings potential (showing farther stations if the price difference is significant).
+
+Users receive a “Smart Radius Suggestion” to help them decide.
