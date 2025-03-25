@@ -1,3 +1,4 @@
+Maya's A/B test:
 ## A/B Test Name: 
 "welcome back" message
 
@@ -11,11 +12,14 @@ retention rate
 A personalized 'welcome back' message with the users name will improve login retention rates due to the fact that users have a more positive and tailored in-app expirience.
 
 ## Experiment: 
-Upon login authentication, users will be shown one of the following variations. We will use the number of logins per user per week to collect metrics. the groups will be a randoized 50/50 split of users.
+Upon login authentication, users will be shown one of the following variations. We will use the number of logins per user per week to collect metrics. the groups will be a randoized 50/50 split of users. We will have a currently empty textbox in the flutterflow app, and use firebase remote configuration add the welcome message in that text box for half the users.
 
 ## Variations:
 Variation 1: our current app expirience with no welcome message
+<img width="359" alt="Screenshot 2025-03-25 at 10 31 48 AM" src="https://github.com/user-attachments/assets/95a2c887-4dd3-42a6-8c60-7dcac579a484" />
+
 Variation 2: Personalized message upon login, 'Welcome back, [name]'
+<img width="352" alt="Screenshot 2025-03-25 at 10 32 48 AM" src="https://github.com/user-attachments/assets/e7f62d3b-8254-4b41-979c-729e9c8fbd08" />
 
 ## A/B Test Name:
 Profile Screen Background Color Experiment 
