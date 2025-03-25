@@ -115,7 +115,7 @@ A/B Test Name:
 Gas Station Panel Background Color Experiment
 
 User Story Number:
-The "Gas Station Panel Background Color Experiment" A/B test will be a task under US2 (Gas Station Results Enhancement).
+The "Gas Station Panel Background Color Experiment" A/B test will be a task under US4 (Gas Station Results Enhancement).
 
 Metrics:
 This experiment will leverage key HEART metrics to evaluate how different panel background colors affect user interaction and decision-making when viewing gas station results. The primary metrics include:
