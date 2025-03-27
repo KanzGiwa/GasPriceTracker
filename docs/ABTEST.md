@@ -156,3 +156,46 @@ Variation 2 (B): A new background color is applied—this could be a softer, mor
 Variation 3 (C): A more contrasting or vibrant background color is tested to determine if increased visual differentiation improves user focus and panel readability.
 
 The outcome of this experiment will inform design decisions aimed at enhancing the presentation of gas station results, ultimately improving user engagement, retention, and the overall ease of completing their gas station search.
+
+
+
+A/B Test name:
+Zip Code input vs. location tracking
+
+User Story Number:
+This is US4: Golden Path Implementation
+
+Metrics:
+This experiment will also utilize key HEART metrics to evaluate how users interact with the gas station search feature when presented with different location input methods. The primary metrics include:
+
+Engagement: Monitoring how often users initiate a gas station search and how much time they spend within the search experience.
+
+Task Success: Measuring the accuracy and efficiency with which users are able to get relevant gas station results.
+
+Retention: Tracking whether users return to use the search feature again, indicating satisfaction and usefulness of the experience.
+
+Hypothesis:
+Currently, users may find it inconvenient or confusing to rely solely on either manual zip code input or automatic location tracking. We believe offering different input methods could reveal user preference and improve their experience.
+
+We hypothesize that:
+
+Automatic location tracking will streamline the process for most users, reducing friction and improving task success by surfacing more relevant, nearby results instantly.
+
+Manual zip code input may be preferred by users who are searching for gas stations in a different area (e.g., for planning ahead), offering more control and flexibility.
+
+Experiment:
+Using Firebase A/B Testing and Firebase Remote Config, we will dynamically assign users to different location input experiences within the gas station search screen. Event tracking via Firebase Analytics will capture:
+
+Search initiation rates
+
+Time to first meaningful interaction (e.g., selecting a gas station)
+
+Search success rates (user finds and clicks on a gas station)
+
+Return usage of the search feature
+
+Variations:
+Control (A): Users manually enter a zip code to find gas stations.
+
+Variation (B): Users are presented with automatic location tracking (with permission) to find gas stations nearby.
+
