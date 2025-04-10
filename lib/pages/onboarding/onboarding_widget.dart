@@ -68,6 +68,14 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                Text(
+                  'Profile',
+                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Inter',
+                        color: FlutterFlowTheme.of(context).primaryText,
+                        letterSpacing: 0.0,
+                      ),
+                ),
                 Expanded(
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
@@ -367,15 +375,6 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           validator: _model.textControllerValidator
                               .asValidator(context),
                         ),
-                      ),
-                      Text(
-                        'Profile',
-                        style: FlutterFlowTheme.of(context).labelSmall.override(
-                              fontFamily: 'Inter',
-                              color: FlutterFlowTheme.of(context)
-                                  .secondaryBackground,
-                              letterSpacing: 0.0,
-                            ),
                       ),
                     ].divide(SizedBox(height: 24.0)),
                   ),
