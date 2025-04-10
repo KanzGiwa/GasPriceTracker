@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>32290002419-1tpt4mb18tba1gr7isi2ks106m6jkopr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.32290002419-1tpt4mb18tba1gr7isi2ks106m6jkopr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>32290002419-rml1imean8ojeu4mfvtm07ul2c23objv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4O9Err6k4PyPW0WSGZJbRK84nK9dlBwI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>32290002419</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.gaspricetracker</string>
+	<key>PROJECT_ID</key>
+	<string>gaspricetracker-4fbed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gaspricetracker-4fbed.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:32290002419:ios:360a2a304d85de73a7ee86</string>
+</dict>
+</plist>
