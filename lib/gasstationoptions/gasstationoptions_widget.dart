@@ -186,7 +186,7 @@ class _GasstationoptionsWidgetState extends State<GasstationoptionsWidget>
                                 5.0, 5.0, 0.0, 0.0),
                             child: Container(
                               width: 92.2,
-                              height: 78.2,
+                              height: 70.75,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context).secondary,
                                 borderRadius: BorderRadius.circular(15.0),
@@ -563,13 +563,13 @@ class _GasstationoptionsWidgetState extends State<GasstationoptionsWidget>
                                     text: 'GO',
                                     icon: FaIcon(
                                       FontAwesomeIcons.route,
-                                      size: 18.0,
+                                      size: 15.0,
                                     ),
                                     options: FFButtonOptions(
-                                      width: 77.5,
+                                      width: 63.55,
                                       height: 64.0,
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          16.0, 0.0, 16.0, 0.0),
+                                          0.0, 0.0, 0.0, 0.0),
                                       iconAlignment: IconAlignment.end,
                                       iconPadding:
                                           EdgeInsetsDirectional.fromSTEB(
@@ -582,7 +582,7 @@ class _GasstationoptionsWidgetState extends State<GasstationoptionsWidget>
                                             fontFamily: 'Miriam Libre',
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryText,
-                                            fontSize: 12.0,
+                                            fontSize: 10.0,
                                             letterSpacing: 0.0,
                                           ),
                                       elevation: 0.0,

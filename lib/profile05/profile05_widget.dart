@@ -67,6 +67,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                       color: FlutterFlowTheme.of(context).primary,
                     ),
                     child: Column(
+                      key: ValueKey('Column_d2ty'),
                       mainAxisSize: MainAxisSize.max,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -314,8 +315,8 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                   children: [
                     Container(
                       width: double.infinity,
+                      height: 139.12,
                       decoration: BoxDecoration(
-                        color: FlutterFlowTheme.of(context).primary,
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
@@ -325,6 +326,9 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                           onPressed: () async {
                             logFirebaseEvent(
                                 'PROFILE05_PAGE_searchbutton_ON_TAP');
+                            logFirebaseEvent('searchbutton_update_page_state');
+                            _model.zip = _model.textController.text;
+                            safeSetState(() {});
                             if (_model.zip != null && _model.zip != '') {
                               logFirebaseEvent('searchbutton_navigate_to');
 
@@ -332,7 +336,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                                 GasstationoptionsWidget.routeName,
                                 queryParameters: {
                                   'zip': serializeParam(
-                                    '',
+                                    _model.zip,
                                     ParamType.String,
                                   ),
                                 }.withoutNulls,
@@ -359,7 +363,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                           },
                           text: 'SEARCH',
                           options: FFButtonOptions(
-                            height: 62.1,
+                            height: 94.7,
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 16.0, 0.0, 16.0, 0.0),
                             iconPadding: EdgeInsetsDirectional.fromSTEB(

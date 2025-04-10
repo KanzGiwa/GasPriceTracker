@@ -297,6 +297,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                       Container(
                         width: double.infinity,
                         child: TextFormField(
+                          key: ValueKey('TextField_zwi6'),
                           controller: _model.textController,
                           focusNode: _model.textFieldFocusNode,
                           autofocus: false,
@@ -367,10 +368,20 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                               .asValidator(context),
                         ),
                       ),
+                      Text(
+                        'Profile',
+                        style: FlutterFlowTheme.of(context).labelSmall.override(
+                              fontFamily: 'Inter',
+                              color: FlutterFlowTheme.of(context)
+                                  .secondaryBackground,
+                              letterSpacing: 0.0,
+                            ),
+                      ),
                     ].divide(SizedBox(height: 24.0)),
                   ),
                 ),
                 FFButtonWidget(
+                  key: ValueKey('Button_16xc'),
                   onPressed: () async {
                     logFirebaseEvent('ONBOARDING_PAGE_Button_ON_TAP');
                     logFirebaseEvent('Button_backend_call');
