@@ -68,14 +68,6 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(
-                  'Profile',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Inter',
-                        color: FlutterFlowTheme.of(context).primaryText,
-                        letterSpacing: 0.0,
-                      ),
-                ),
                 Expanded(
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
