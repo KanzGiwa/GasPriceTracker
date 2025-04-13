@@ -237,6 +237,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                       child: Container(
                         width: 200.0,
                         child: TextFormField(
+                          key: ValueKey('TextField_syfm'),
                           controller: _model.textController,
                           focusNode: _model.textFieldFocusNode,
                           autofocus: false,
@@ -323,6 +324,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 0.0),
                         child: FFButtonWidget(
+                          key: ValueKey('searchbutton_f77a'),
                           onPressed: () async {
                             logFirebaseEvent(
                                 'PROFILE05_PAGE_searchbutton_ON_TAP');

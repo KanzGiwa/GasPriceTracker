@@ -1,4 +1,4 @@
-package com.mycompany.gaspricetracker;
+package com.uricsc305.gaspricetracker;
 
 import androidx.test.rule.ActivityTestRule;
 import dev.flutter.plugins.integration_test.FlutterTestRunner;

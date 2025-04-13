@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>32290002419-1tpt4mb18tba1gr7isi2ks106m6jkopr.apps.googleusercontent.com</string>
+	<string>32290002419-642h1tmc7ti7oknkjqivo8in9tpdb6t2.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.32290002419-1tpt4mb18tba1gr7isi2ks106m6jkopr</string>
+	<string>com.googleusercontent.apps.32290002419-642h1tmc7ti7oknkjqivo8in9tpdb6t2</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>32290002419-rml1imean8ojeu4mfvtm07ul2c23objv.apps.googleusercontent.com</string>
+	<string>32290002419-ef9f0et9dembcc63ll6fimfqhfgsg72t.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD4O9Err6k4PyPW0WSGZJbRK84nK9dlBwI</string>
 	<key>GCM_SENDER_ID</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.mycompany.gaspricetracker</string>
+	<string>com.uricsc305.gaspricetracker</string>
 	<key>PROJECT_ID</key>
 	<string>gaspricetracker-4fbed</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:32290002419:ios:360a2a304d85de73a7ee86</string>
+	<string>1:32290002419:ios:50d23d5e7f2c52cba7ee86</string>
 </dict>
 </plist>
