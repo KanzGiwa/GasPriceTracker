@@ -692,6 +692,10 @@ class _SignupWidgetState extends State<SignupWidget>
                         }
                       },
                       text: 'Login',
+                      icon: Icon(
+                        Icons.login,
+                        size: 15.0,
+                      ),
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 70.0,
