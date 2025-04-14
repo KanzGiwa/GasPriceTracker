@@ -53,7 +53,7 @@ void main() async {
         find.byKey(const ValueKey('SignupConfirmPassword_a0hp')), 'cupcake');
     await tester.tap(find.byKey(const ValueKey('SignupButton_7h7e')));
     await tester.pumpAndSettle(const Duration(milliseconds: 5000));
-    expect(find.text('Profile'), findsWidgets);
+    expect(find.text('FUELIFY'), findsWidgets);
   });
 
   testWidgets('Net Promoter Score', (WidgetTester tester) async {
