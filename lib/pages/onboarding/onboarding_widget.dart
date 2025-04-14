@@ -297,7 +297,6 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                       Container(
                         width: double.infinity,
                         child: TextFormField(
-                          key: ValueKey('TextField_zwi6'),
                           controller: _model.textController,
                           focusNode: _model.textFieldFocusNode,
                           autofocus: false,

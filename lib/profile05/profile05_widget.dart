@@ -68,7 +68,6 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                       color: FlutterFlowTheme.of(context).primary,
                     ),
                     child: Column(
-                      key: ValueKey('Column_d2ty'),
                       mainAxisSize: MainAxisSize.max,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -201,6 +200,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(90.0, 60.0, 0.0, 0.0),
                       child: Text(
+                        key: ValueKey('Text_lqoy'),
                         'Hello,',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Miriam Libre',

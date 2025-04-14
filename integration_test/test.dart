@@ -105,24 +105,30 @@ void main() async {
     await GoogleFonts.pendingFonts();
 
     await tester.pumpAndSettle(const Duration(milliseconds: 5000));
-    await tester.enterText(
-        find.byKey(const ValueKey('SignupEmail_q3y0')), 'bot@gmail.com');
-    await tester.enterText(
-        find.byKey(const ValueKey('SignupPassword_67yh')), 'HelloWorld');
-    await tester.enterText(
-        find.byKey(const ValueKey('SignupConfirmPassword_a0hp')), 'HelloWorld');
-    await tester.tap(find.byKey(const ValueKey('SignupButton_7h7e')));
+    await tester.enterText(find.byKey(const ValueKey('SignupEmail_q3y0')),
+        'backendtest@gmail.com');
     await tester.pumpAndSettle(const Duration(milliseconds: 5000));
-    await tester.enterText(find.byKey(const ValueKey('TextField_zwi6')), 'Bot');
+    await tester.enterText(
+        find.byKey(const ValueKey('SignupPassword_67yh')), 'Thisismypassword!');
+    await tester.enterText(
+        find.byKey(const ValueKey('SignupConfirmPassword_a0hp')),
+        'Thisismypassword!');
+    await tester.tap(find.byKey(const ValueKey('SignupButton_7h7e')));
+    expect(find.byKey(const ValueKey('Button_16xc')), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('Button_16xc')));
+    await tester.pumpAndSettle(const Duration(milliseconds: 5000));
     await tester.tap(find.byKey(const ValueKey('Button_qs1y')));
+    await tester.pumpAndSettle(const Duration(milliseconds: 5000));
+    await tester.tap(find.byKey(const ValueKey('LoginTab_baug')));
+    await tester.pump(kDoubleTapMinTime);
     await tester.tap(find.byKey(const ValueKey('LoginTab_baug')));
     await tester.enterText(
-        find.byKey(const ValueKey('LoginEmail_ws0q')), 'bot@gmail.com');
+        find.byKey(const ValueKey('LoginEmail_ws0q')), 'backendtest@gmail.com');
     await tester.enterText(
-        find.byKey(const ValueKey('LoginPassword_yjz3')), 'HelloWorld');
+        find.byKey(const ValueKey('LoginPassword_yjz3')), 'Thisismypassword!');
     await tester.tap(find.byKey(const ValueKey('SignupButton_7h7e')));
-    expect(find.byKey(const ValueKey('Column_d2ty')), findsWidgets);
+    await tester.pumpAndSettle(const Duration(milliseconds: 5000));
+    expect(find.byKey(const ValueKey('Text_lqoy')), findsOneWidget);
   });
 
   testWidgets('Successful login', (WidgetTester tester) async {
