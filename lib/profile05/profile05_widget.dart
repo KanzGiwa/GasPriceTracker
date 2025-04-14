@@ -56,6 +56,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
         body: SafeArea(
           top: true,
           child: Column(
+            key: ValueKey('Column_y20q'),
             mainAxisSize: MainAxisSize.max,
             children: [
               Stack(
@@ -75,6 +76,7 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               5.0, 5.0, 0.0, 0.0),
                           child: FFButtonWidget(
+                            key: ValueKey('Button_qs1y'),
                             onPressed: () async {
                               logFirebaseEvent(
                                   'PROFILE05_PAGE_LOG_OUT_BTN_ON_TAP');
@@ -147,46 +149,50 @@ class _Profile05WidgetState extends State<Profile05Widget> {
                   ),
                   Align(
                     alignment: AlignmentDirectional(1.0, 0.0),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [
-                        Align(
-                          alignment: AlignmentDirectional(1.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 10.0, 0.0, 0.0),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: Image.asset(
-                                'assets/images/logo_transparent.png',
-                                width: 80.23,
-                                height: 56.9,
-                                fit: BoxFit.contain,
+                    child: Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(80.0, 0.0, 0.0, 0.0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Align(
+                            alignment: AlignmentDirectional(1.0, 0.0),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 10.0, 0.0, 0.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(8.0),
+                                child: Image.asset(
+                                  'assets/images/logo_transparent.png',
+                                  width: 80.23,
+                                  height: 56.9,
+                                  fit: BoxFit.contain,
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                        Align(
-                          alignment: AlignmentDirectional(1.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 5.0, 0.0),
-                            child: Text(
-                              'FUELIFY',
-                              style: FlutterFlowTheme.of(context)
-                                  .headlineSmall
-                                  .override(
-                                    fontFamily: 'Miriam Libre',
-                                    color:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    fontSize: 15.0,
-                                    letterSpacing: 2.0,
-                                    fontWeight: FontWeight.w500,
-                                  ),
+                          Align(
+                            alignment: AlignmentDirectional(1.0, 0.0),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 5.0, 0.0),
+                              child: Text(
+                                'FUELIFY',
+                                style: FlutterFlowTheme.of(context)
+                                    .headlineSmall
+                                    .override(
+                                      fontFamily: 'Miriam Libre',
+                                      color: FlutterFlowTheme.of(context)
+                                          .alternate,
+                                      fontSize: 15.0,
+                                      letterSpacing: 2.0,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                              ),
                             ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                   Align(

@@ -85,8 +85,10 @@ void main() async {
     await tester.enterText(
         find.byKey(const ValueKey('TextField_fawq')), 'I love this app');
     await tester.tap(find.byKey(const ValueKey('Button_t2pj')));
+    await tester.pump(kDoubleTapMinTime);
+    await tester.tap(find.byKey(const ValueKey('Button_t2pj')));
     await tester.pumpAndSettle(const Duration(milliseconds: 5000));
-    expect(find.byKey(const ValueKey('Profile05_9xhr')), findsWidgets);
+    expect(find.byKey(const ValueKey('Column_y20q')), findsWidgets);
   });
 
   testWidgets('Backend', (WidgetTester tester) async {
@@ -114,7 +116,7 @@ void main() async {
     await tester.enterText(find.byKey(const ValueKey('TextField_zwi6')), 'Bot');
     await tester.tap(find.byKey(const ValueKey('Button_16xc')));
     await tester.pumpAndSettle(const Duration(milliseconds: 5000));
-    await tester.tap(find.text('LOG OUT'));
+    await tester.tap(find.byKey(const ValueKey('Button_qs1y')));
     await tester.pumpAndSettle(const Duration(milliseconds: 5000));
     await tester.enterText(
         find.byKey(const ValueKey('SignupEmail_q3y0')), 'bot@gmail.com');
@@ -151,12 +153,15 @@ void main() async {
     ));
     await GoogleFonts.pendingFonts();
 
+    await tester.pumpAndSettle(const Duration(milliseconds: 5000));
     await tester.tap(find.byKey(const ValueKey('LoginTab_baug')));
     await tester.enterText(
         find.byKey(const ValueKey('LoginEmail_ws0q')), 'lph1@gmail.com');
     await tester.enterText(
         find.byKey(const ValueKey('LoginPassword_yjz3')), 'helloworld');
     await tester.tap(find.byKey(const ValueKey('SignupButton_7h7e')));
+    await tester.pumpAndSettle(const Duration(milliseconds: 5000));
+    expect(find.text('Fuelify'), findsWidgets);
   });
 
   testWidgets('Golden path', (WidgetTester tester) async {
